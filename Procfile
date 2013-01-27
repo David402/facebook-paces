@@ -1,1 +1,1 @@
-web: bundle exec thin -R config.ru start -p $PORT -e ${RACK_ENV:-development}
+web: ruby -r bundler/setup -S zbatery -c config/rainbows.rb -p $PORT -E $RACK_ENV
