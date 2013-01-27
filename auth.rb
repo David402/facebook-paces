@@ -1,5 +1,5 @@
 class Auth
-  LOGIN_URL='http://fb-mini.herokuapp.com/login'
+  LOGIN_URL='http://facebook-paces.herokuapp.com/login'
   READ_PERMISSIONS=['read_stream']
   def initialize app; @app = app; end
   def call env
