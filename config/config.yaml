@@ -1,3 +1,6 @@
 memcached_stores: ['memcached://bfade4:e4e8a3e6c46566e2b585@mc1.ec2.memcachier.com']
 facebook_app_id: '183716968418517'
 facebook_app_secret: '8c1d62ae3539682f43a601cca52fbbc0'
+login_url: 'http://facebook-paces.herokuapp.com'
+#login_url: 'http://geneva3.godfat.org:11111/login'
+
